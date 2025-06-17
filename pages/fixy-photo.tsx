@@ -1,1 +1,0 @@
-export default function FixyPhoto() { return <main>Fixy Photo Campaign</main>; }

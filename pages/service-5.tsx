@@ -1,1 +1,0 @@
-export default function Service5() { return <main>Service Page 5</main>; }
