@@ -1,12 +1,12 @@
 import Layout from '@/components/Layout';
 
-export default function BlogHvacServices() {
+export default function BlogMainLineRepair() {
   return (
     <Layout>
       <section className="prose max-w-3xl mx-auto py-12">
-        <h1 className="text-4xl font-bold mb-4 capitalize">hvac services</h1>
+        <h1 className="text-4xl font-bold mb-4 capitalize">main line repair</h1>
         <p>
-          Discover how PD Plumbing can help you with hvac services in Wichita. Our fast, friendly experts ensure
+          Discover how PD Plumbing can help you with main line repair in Wichita. Our fast, friendly experts ensure
           quality service and peace of mind. Fixy guarantees a job well done!
         </p>
         <p>
