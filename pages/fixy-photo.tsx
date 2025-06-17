@@ -1,0 +1,1 @@
+<main>/* Fixy Photo Campaign Page */</main>

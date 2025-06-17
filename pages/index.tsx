@@ -1,4 +1,1 @@
-export default function Home() {
-  return <h1>PD Plumbing</h1>
-}
-
+<main>/* Homepage with Fixy branding */</main>
