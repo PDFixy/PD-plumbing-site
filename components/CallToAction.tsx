@@ -1,13 +1,25 @@
-export default function CallToAction() {
+// components/CallToAction.tsx
+import React from 'react';
+
+const CallToAction = () => {
   return (
-    <div style={{ padding: '2rem', background: '#f0f8ff', textAlign: 'center' }}>
-      <h2 style={{ marginBottom: '0.5rem' }}>Fixy’s Fast. Fixy’s Friendly. Call PD.</h2>
-      <p style={{ fontSize: '1.1rem' }}>Emergency Plumbing Service • Halo Water Softeners • Same-Day Water Heater Install</p>
-      <a href="/contact">
-        <button style={{ marginTop: '1rem', padding: '0.75rem 1.5rem', fontSize: '1rem' }}>
-          Book Now
-        </button>
+    <div style={{ backgroundColor: '#0070f3', color: '#fff', padding: '2rem', textAlign: 'center' }}>
+      <h2>Need Plumbing Help Fast?</h2>
+      <p>Call us now or book an appointment today!</p>
+      <a href="tel:+13168715499" style={{
+        display: 'inline-block',
+        marginTop: '1rem',
+        padding: '1rem 2rem',
+        backgroundColor: '#fff',
+        color: '#0070f3',
+        textDecoration: 'none',
+        fontWeight: 'bold',
+        borderRadius: '5px'
+      }}>
+        Call (316) 871-5499
       </a>
     </div>
   );
-}
+};
+
+export default CallToAction;
