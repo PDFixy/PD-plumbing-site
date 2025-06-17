@@ -1,1 +1,1 @@
-
+export default function CallToAction() { return <div>Call to Action</div>; }
