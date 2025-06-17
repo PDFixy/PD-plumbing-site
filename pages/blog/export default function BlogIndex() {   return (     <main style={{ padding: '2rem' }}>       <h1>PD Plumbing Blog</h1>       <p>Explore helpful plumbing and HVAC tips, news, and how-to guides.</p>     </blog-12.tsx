@@ -1,0 +1,1 @@
+export default function Blog12() { return <main>Blog Post 12</main>; }
