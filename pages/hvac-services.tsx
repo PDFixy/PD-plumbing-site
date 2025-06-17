@@ -1,18 +1,20 @@
-import React from "react";
+import React from 'react';
+import Layout from '../components/Layout';
+import CallToAction from '../components/CallToAction';
 
-export default function hvac_services() {
+export default function HVACServicesPage() {
   return (
-    <div className="blog-post">
-      <h1>Hvac Services: What You Need to Know</h1>
-      <p>At PD Plumbing, we specialize in hvac services to keep your home running smoothly. Fixy and the crew are always ready to deliver fast, friendly service when you need it most.</p>
-      <p>Why choose us? Local expertise, fair pricing, and unbeatable customer service backed by hundreds of 5-star reviews. Whether you're dealing with a sudden issue or planning a replacement, our team is here to help.</p>
-      <h2>What to Expect</h2>
-      <ul>
-        <li>Quick response from our friendly staff</li>
-        <li>Upfront pricing with no surprises</li>
-        <li>Trusted by your neighbors in Wichita, KS</li>
-      </ul>
-      <p>📞 <strong>Call now at (316) 871-5499</strong> or <a href="/contact">request service online</a>. Don’t forget—mention “Fixy” for a special offer!</p>
-    </div>
+    <Layout title="HVAC Services | PD Plumbing">
+      <section className="py-10 px-4 text-center">
+        <h1 className="text-4xl font-bold text-blue-700 mb-4">HVAC Services</h1>
+        <p className="max-w-2xl mx-auto text-lg text-gray-700">
+          At PD Plumbing, we specialize in expert-level hvac services. Whether you’re dealing with an emergency or planning an upgrade, our licensed professionals are here to help. Expect fast service, transparent pricing, and our signature smile — every time.
+        </p>
+        <p className="mt-4 max-w-xl mx-auto text-md text-gray-600">
+          Trusted by Wichita homeowners for 5-star service, our team delivers the kind of quality and friendliness that keeps customers coming back. Call now to schedule or get a fast quote.
+        </p>
+      </section>
+      <CallToAction />
+    </Layout>
   );
 }
