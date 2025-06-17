@@ -1,0 +1,1 @@
+export default function Service6() { return <main>Service Page 6</main>; }

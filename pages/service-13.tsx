@@ -1,0 +1,1 @@
+export default function Service13() { return <main>Service Page 13</main>; }
