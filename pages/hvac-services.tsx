@@ -1,5 +1,6 @@
 import React from 'react';
-import Layout from '../components/Layout';
+import Layout from '@/components/Layout'
+
 import CallToAction from '../components/CallToAction';
 
 export default function HVACServicesPage() {
