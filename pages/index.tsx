@@ -1,39 +1,44 @@
-import Head from "next/head";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import CallToAction from "../components/CallToAction";
-import MeetTheTeam from "../components/MeetTheTeam";
-import Testimonials from "../components/Testimonials";
+import Head from 'next/head';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import CallToAction from '../components/CallToAction';
+import MeetTheTeam from '../components/MeetTheTeam';
+import Testimonials from '../components/Testimonials';
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Head>
         <title>PD Plumbing | Fast, Friendly Service</title>
-        <meta name="description" content="The Face of Fast, Friendly Plumbing. Call now or scan Fixy to save 10% today!" />
+        <meta name="description" content="Professional plumbing, heating, and cooling in Wichita. Fast emergency repairs, trusted by Kansas homeowners." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Header />
 
-      <main>
-        <section className="hero">
-          <img src="/assets/images/same-day-header-banner.jpg" alt="Same-Day Service Guaranteed" style={{ width: "100%", maxHeight: "400px", objectFit: "cover" }} />
-          <div className="hero-text">
-            <h1>Fixy's Fast. Fixy's Friendly.</h1>
-            <p>Spot Fixy. Snap a Pic. Save 10%.</p>
-            <CallToAction />
-          </div>
-        </section>
+      {/* Fixy Mascot + Slogan */}
+      <div style={{ textAlign: 'center', marginTop: '3rem', marginBottom: '2rem' }}>
+        <img
+          src="/assets/images/logos/fixy-mascot-save.jpg"
+          alt="Fixy the PD Plumbing Mascot"
+          style={{ width: '220px', height: 'auto' }}
+        />
+        <p style={{ fontSize: '1.4rem', fontWeight: 'bold', marginTop: '1rem', color: '#003366' }}>
+          Fixy’s Fast. Fixy’s Friendly.
+        </p>
+      </div>
 
-        <MeetTheTeam showOnly={["Britt", "Hunter", "Dylan", "Ari", "Andy"]} />
+      {/* Call To Action */}
+      <CallToAction />
 
-        <section className="testimonials-section">
-          <h2>What Our Customers Say</h2>
-          <Testimonials />
-        </section>
-      </main>
+      {/* Meet the Team (Home Page Preview) */}
+      <MeetTheTeam showOnly={['Britt', 'Hunter', 'Dylan', 'Ari', 'Andy']} />
+
+      {/* Testimonials Section */}
+      <Testimonials />
 
       <Footer />
-    </>
+    </div>
   );
 }
