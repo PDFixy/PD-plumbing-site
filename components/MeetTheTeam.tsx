@@ -1,69 +1,41 @@
-import React from 'react';
-import Image from 'next/image';
-import './MeetTheTeam.css';
-
-import andyBio from '@/public/assets/images/team/Andy.txt';
-import ariBio from '@/public/assets/images/team/Ari.txt';
-import brittBio from '@/public/assets/images/team/Britt.txt';
-import dylanBio from '@/public/assets/images/team/Dylan.txt';
-import hunterBio from '@/public/assets/images/team/Hunter.txt';
-
-interface TeamMember {
-  name: string;
-  title: string;
-  image: string;
-  bio: string;
-}
-
-const team: TeamMember[] = [
+// components/MeetTheTeamPreview.tsx
+const teamMembers = [
   {
     name: 'Britt',
-    title: 'Operations Manager',
-    image: '/assets/images/team/Britt.jpg',
-    bio: brittBio,
+    role: 'Plumbing Lead',
+    image: '/assets/images/team/britt.jpg',
   },
   {
     name: 'Hunter',
-    title: 'Plumbing Technician',
-    image: '/assets/images/team/Hunter.jpg',
-    bio: hunterBio,
+    role: 'Service Tech',
+    image: '/assets/images/team/hunter.jpg',
   },
   {
     name: 'Dylan',
-    title: 'Lead HVAC Technician',
-    image: '/assets/images/team/Dylan.jpg',
-    bio: dylanBio,
+    role: 'Installer',
+    image: '/assets/images/team/dylan.jpg',
   },
   {
     name: 'Ari',
-    title: 'Customer Service Coordinator',
-    image: '/assets/images/team/Ari.jpg',
-    bio: ariBio,
-  },
-  {
-    name: 'Andy',
-    title: 'Plumbing Apprentice',
-    image: '/assets/images/team/Andy.jpg',
-    bio: andyBio,
+    role: 'HVAC Lead',
+    image: '/assets/images/team/ari.jpg',
   },
 ];
 
-const MeetTheTeam: React.FC = () => {
+export default function MeetTheTeamPreview() {
   return (
-    <div className="meet-the-team">
-      <h2>Meet the Team</h2>
-      <div className="team-grid">
-        {team.map((member, index) => (
-          <div key={index} className="team-member">
-            <Image src={member.image} alt={member.name} width={300} height={300} />
-            <h3>{member.name}</h3>
-            <p><strong>{member.title}</strong></p>
-            <p>{member.bio}</p>
-          </div>
-        ))}
-      </div>
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+      {teamMembers.map((member) => (
+        <div key={member.name} className="text-center">
+          <img
+            src={member.image}
+            alt={member.name}
+            className="w-32 h-32 mx-auto rounded-full object-cover shadow"
+          />
+          <h3 className="mt-4 text-lg font-semibold">{member.name}</h3>
+          <p className="text-gray-500">{member.role}</p>
+        </div>
+      ))}
     </div>
   );
-};
-
-export default MeetTheTeam;
+}
