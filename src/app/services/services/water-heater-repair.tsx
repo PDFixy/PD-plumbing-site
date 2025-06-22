@@ -1,3 +1,0 @@
-// services/water-heater-repair/page.tsx
-
-Water Heater Repair page content here...

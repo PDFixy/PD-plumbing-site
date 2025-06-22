@@ -3,6 +3,11 @@
 import { useState } from 'react';
 import Image from 'next/image';
 
+'use client';
+
+import { useState } from 'react';
+import Image from 'next/image';
+
 const teamMembers = [
   {
     name: 'Hunter Tilson',
@@ -65,6 +70,13 @@ const teamMembers = [
     fullBio: `Steven transitioned careers and brings precision, compassion, and integrity to every job he touches...`,
   },
 ];
+
+export default function MeetTheTeam() {
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+
+  const toggleBio = (index: number) => {
+    setActiveIndex(prev => (prev === index ? null : index));
+  };
 
 export default function MeetTheTeam() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);

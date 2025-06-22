@@ -1,2 +1,0 @@
-export default function PipeReplacement() {
-  return (<div><h1>Pipe Replacement</h1><p>Old or corroded pipes? Upgrade your system with durable, modern materials installed by Fixy pros. We handle full and partial repipes. Call (316) 871-5499 today.</p></div>); }

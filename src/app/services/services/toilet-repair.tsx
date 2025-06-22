@@ -1,2 +1,0 @@
-export default function ToiletRepair() {
-  return (<div><h1>Toilet Repair & Installation</h1><p>Running toilet? Constant clogs? Fixy’s team fixes or replaces toilets fast. We service homes and businesses in Wichita and nearby towns. Call (316) 871-5499.</p></div>); }

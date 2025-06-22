@@ -1,2 +1,0 @@
-export default function CommercialPlumbing() {
-  return (<div><h1>Commercial Plumbing</h1><p>Fixy’s Fast. Fixy’s Reliable. Trusted by Wichita businesses for emergency repairs, installations, and upgrades. Our certified plumbers ensure your operation never misses a beat. Call us at (316) 871-5499 now.</p></div>); }

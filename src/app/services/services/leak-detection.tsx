@@ -1,2 +1,0 @@
-export default function LeakDetection() {
-  return (<div><h1>Leak Detection</h1><p>Hidden leak? Fixy finds it. Using advanced tools, we detect and fix leaks fast to prevent damage. Serving Wichita, Andover, Maize, and beyond. Call (316) 871-5499 now.</p></div>); }
