@@ -7,13 +7,13 @@ export default function BlogPost() {
       <article className="prose lg:prose-lg max-w-none mx-auto">
         <Image
           src="/assets/images/work/plumbing-van-company-logo.jpg"
-          alt="Drain Cleaning Dos Donts"
+          alt="Why Is My Water Bill High"
           width={1200}
           height={600}
           className="rounded shadow"
         />
-        <h1>Drain Cleaning Dos Donts</h1>
-        <p><strong>Snippet:</strong> Learn how to handle drain cleaning dos donts with expert tips from PD Plumbing, Wichita's go-to fast and friendly team.</p>
+        <h1>Why Is My Water Bill High</h1>
+        <p><strong>Snippet:</strong> Learn how to handle why is my water bill high with expert tips from PD Plumbing, Wichita's go-to fast and friendly team.</p>
 
         <h2>Outline</h2>
         <ul>
