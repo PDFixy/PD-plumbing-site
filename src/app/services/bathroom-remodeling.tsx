@@ -1,0 +1,3 @@
+// services/bathroom-remodeling/page.tsx
+
+Bathroom Remodeling page content here...
