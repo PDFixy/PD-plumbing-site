@@ -1,2 +1,0 @@
-export default function BathroomRemodeling() {
-  return (<div><h1>Bathroom Remodeling</h1><p>Fixy’s team of licensed plumbers transforms outdated bathrooms into modern sanctuaries. We specialize in full and partial remodels with same-day service in Wichita and surrounding areas. Call (316) 871-5499 today!</p></div>); }

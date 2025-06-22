@@ -1,2 +1,0 @@
-export default function KitchenPlumbing() {
-  return (<div><h1>Kitchen Plumbing</h1><p>Fixy handles sink installs, garbage disposals, dishwashers, and more. Prompt, clean, and affordable service from a trusted local team. Call (316) 871-5499 today.</p></div>); }

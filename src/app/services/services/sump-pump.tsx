@@ -1,2 +1,0 @@
-export default function SumpPump() {
-  return (<div><h1>Sump Pump Services</h1><p>Protect your basement from flooding. Fixy installs and repairs sump pumps with guaranteed same-day appointments. Call Wichita’s sump pump pros at (316) 871-5499.</p></div>); }

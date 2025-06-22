@@ -1,2 +1,0 @@
-export default function WaterFiltration() {
-  return (<div><h1>Water Filtration Systems</h1><p>Improve water quality with a filtration system installed by Fixy. Enjoy cleaner water and peace of mind. Call (316) 871-5499 for a free quote today.</p></div>); }

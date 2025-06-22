@@ -1,2 +1,0 @@
-export default function HVACServices() {
-  return (<div><h1>HVAC Services</h1><p>Stay comfortable year-round. Fixy handles HVAC installs, repairs, and maintenance with guaranteed same-day service in Wichita. Financing available. Call (316) 871-5499.</p></div>); }
