@@ -1,3 +1,2 @@
-// services/sewer-line-repair/page.tsx
-
-Sewer Line Repair page content here...
+export default function SewerLineRepair() {
+  return (<div><h1>Sewer Line Repair</h1><p>Fixy solves sewer problems fast. From blockages to trenchless repair, our licensed plumbers handle it all with care. Call (316) 871-5499 for inspection and service.</p></div>); }

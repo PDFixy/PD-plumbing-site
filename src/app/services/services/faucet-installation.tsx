@@ -1,3 +1,2 @@
-// services/faucet-installation/page.tsx
-
-Faucet Installation page content here...
+export default function FaucetInstallation() {
+  return (<div><h1>Faucet Installation</h1><p>Upgrade your kitchen or bathroom with a modern faucet installed by Fixy’s pros. Same-day availability. Trusted locally. Call now at (316) 871-5499.</p></div>); }

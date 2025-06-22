@@ -1,3 +1,2 @@
-// services/gas-line-repair/page.tsx
-
-Gas Line Repair page content here...
+export default function GasLineRepair() {
+  return (<div><h1>Gas Line Repair</h1><p>Gas leak? Don’t wait. Fixy’s licensed technicians offer immediate response for gas line inspection, repair, and replacement. Wichita’s trusted experts. Call (316) 871-5499.</p></div>); }

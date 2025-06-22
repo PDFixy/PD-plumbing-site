@@ -1,3 +1,2 @@
-// services/emergency-plumbing/page.tsx
-
-Emergency Plumbing page content here...
+export default function EmergencyPlumbing() {
+  return (<div><h1>24/7 Emergency Plumbing</h1><p>Fixy responds instantly. Burst pipes, leaks, or no water? Our technicians arrive fast. We proudly serve Wichita and nearby cities. Call our emergency line now at (316) 871-5499.</p></div>); }

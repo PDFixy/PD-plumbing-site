@@ -1,3 +1,2 @@
-// services/drain-cleaning/page.tsx
-
-Drain Cleaning page content here...
+export default function DrainCleaning() {
+  return (<div><h1>Drain Cleaning</h1><p>Clogged drain? Fixy clears it fast with top-rated hydro-jetting and snaking service. We handle everything from kitchen backups to mainline issues. 24/7 service available. Call (316) 871-5499.</p></div>); }
