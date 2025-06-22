@@ -1,28 +1,40 @@
+import React from 'react';
 import Head from 'next/head';
+import Layout from '../../components/Layout';
+import CallToAction from '../../components/CallToAction';
 
-export default function BlogPost() {
+export default function Page() {
   return (
-    <>
+    <Layout>
       <Head>
-        <title>Top 5 Plumbing Myths | PD Plumbing</title>
-        <meta name="description" content="Don't fall for these common misconceptions." />
+        <title>Top 5 Plumbing Myths Debunked | PD Plumbing</title>
+        <meta name="description" content="Learn about top 5 plumbing myths debunked from PD Plumbing. Expert insights, pro tips, and when to call our friendly Wichita-based team for help." />
       </Head>
+      <article>
+        <h1>Top 5 Plumbing Myths Debunked</h1>
+        <p><strong>Snippet:</strong> Top 5 Plumbing Myths Debunked can save homeowners thousands by preventing damage, avoiding DIY mistakes, and keeping your home running efficiently.</p>
 
-      <main className="max-w-3xl mx-auto px-4 py-12">
-        <h1 className="text-4xl font-bold mb-6 text-center">Top 5 Plumbing Myths</h1>
-        <p className="text-lg text-center mb-4">Don't fall for these common misconceptions.</p>
+        <h2>Overview</h2>
+        <p>Top 5 Plumbing Myths Debunked is a common concern for homeowners. Whether you're dealing with an urgent issue or planning ahead, knowing what to expect can save time and money.</p>
 
-        <img src="/assets/images/fixy/fixy_pointing.png" alt="Fixy Mascot" className="mx-auto mb-8 w-60" />
-        <img src="/assets/images/work/plumbing-van-company-logo.jpg" alt="PD Plumbing at work" className="mx-auto mb-12 w-full rounded shadow" />
+        <h2>What You’ll Learn</h2>
+        <ul>
+          <li>When to call PD Plumbing for help</li>
+          <li>Common issues we solve</li>
+          <li>How to avoid costly mistakes</li>
+        </ul>
 
-        <p className="text-gray-700 mb-6">PD Plumbing is here to help with reliable, same-day service backed by years of experience. Whether it’s a leak, clog, or full fixture replacement, our pros get the job done fast and friendly. Call today!</p>
+        <h2>Redirected Service</h2>
+        <p>Need help now? <a href="/services">Visit our plumbing and HVAC service page</a> or call us at (316) 871-5499.</p>
 
-        <div className="text-center">
-          <a href="tel:3168715499" className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-3 rounded">
-            📞 Call PD Now
-          </a>
-        </div>
-      </main>
-    </>
+        <h2>Pro Tips</h2>
+        <ul>
+          <li>Schedule seasonal inspections</li>
+          <li>Know where your shut-off valves are</li>
+        </ul>
+
+        <CallToAction />
+      </article>
+    </Layout>
   );
 }
