@@ -1,27 +1,48 @@
+'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
 
 export default function CallToAction() {
   return (
-    <section className="bg-blue-50 border border-blue-200 p-6 rounded-2xl mt-12 text-center shadow-md">
-      <div className="flex flex-col items-center justify-center gap-6 md:flex-row">
+    <section className="bg-white border border-gray-200 shadow-xl rounded-2xl p-8 mt-12 text-center max-w-4xl mx-auto">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-8">
         <Image
           src="/assets/images/fixy/fixy-ready.png"
           alt="Fixy holding a wrench"
-          width={120}
-          height={120}
-          className="mb-4 md:mb-0"
+          width={140}
+          height={140}
+          className="mx-auto"
         />
-        <div>
-          <h2 className="text-2xl font-bold mb-2 text-blue-900">Need Plumbing Help Fast?</h2>
-          <p className="mb-4 text-gray-700">
-            Call PD Plumbing now or browse our services — Fixy’s always ready!
+
+        <div className="text-left md:text-center">
+          <h2 className="text-3xl font-bold text-blue-900 mb-2">
+            Same-Day Plumbing & HVAC in Wichita
+          </h2>
+          <p className="text-gray-700 mb-4 text-lg">
+            Fixy’s fast. Fixy’s friendly. Book now and we’ll be on the way today.
           </p>
-          <Link href="/services">
-            <span className="inline-block bg-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-700 transition">
-              🔧 See All Services
-            </span>
-          </Link>
+
+          {/* ⭐ Star rating bar */}
+          <div className="flex justify-center items-center gap-1 text-yellow-400 text-xl mb-4">
+            {'★★★★★'}
+            <span className="text-sm text-gray-500 ml-2">(100+ Google Reviews)</span>
+          </div>
+
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="tel:3168715499"
+              className="bg-green-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-green-700 transition"
+            >
+              📞 Call Now
+            </a>
+            <Link href="/services">
+              <span className="bg-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-700 transition cursor-pointer">
+                🔧 Browse Services
+              </span>
+            </Link>
+          </div>
         </div>
       </div>
     </section>
