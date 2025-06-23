@@ -12,7 +12,7 @@ export default function EmergencyPlumbing() {
         <title>Emergency Plumbing Tips to Prevent Major Damage | PD Plumbing</title>
         <meta
           name="description"
-          content="Emergency Plumbing Tips to Prevent Major Damage from PD Plumbing. Learn how to solve problems, prevent issues, and improve your home systems."
+          content="Burst pipe? Overflowing toilet? Learn how to minimize damage with these emergency plumbing tips from the pros at PD Plumbing — and when to call Fixy fast."
         />
       </Head>
 
@@ -22,38 +22,24 @@ export default function EmergencyPlumbing() {
         <Image
           src="/assets/images/plumbing-van-company-logo.jpg"
           alt="Emergency Plumbing Tips to Prevent Major Damage"
-          width=800
-          height=400
+          width={800}
+          height={400}
           className="mb-6 rounded"
         />
 
         <p className="text-lg mb-4 text-gray-700">
-          Emergency Plumbing Tips to Prevent Major Damage – Learn how PD Plumbing can help you handle this common home concern with confidence.
+          When a plumbing emergency strikes — time is everything. Whether you’re dealing with a burst pipe, a flooded basement, or an overflowing toilet,
+          these quick tips can help you avoid thousands in damage before the PD Plumbing team arrives.
         </p>
 
-        <h2 className="text-2xl font-semibold mt-8 mb-4">🔧 What You Need to Know</h2>
+        <h2 className="text-2xl font-semibold mt-8 mb-4">🚨 What To Do Immediately</h2>
         <ul className="list-disc list-inside mb-6 text-gray-700">
-          <li>Warning signs to look out for</li>
-          <li>When DIY is okay vs. when to call a pro</li>
-          <li>How PD Plumbing solves this fast</li>
+          <li>Shut off your main water supply (know where it is!)</li>
+          <li>Turn off your water heater to avoid pressure buildup</li>
+          <li>Contain the leak with towels, buckets, or plastic wrap</li>
+          <li>Avoid using electrical devices near flooded areas</li>
         </ul>
 
-        <h2 className="text-2xl font-semibold mt-8 mb-4">📞 Why Call PD Plumbing?</h2>
+        <h2 className="text-2xl font-semibold mt-8 mb-4">📵 When Not to DIY</h2>
         <p className="mb-6 text-gray-700">
-          We offer honest pricing, fast response times, and the kind of local service that big chains just can’t match.
-        </p>
-
-        <blockquote className="border-l-4 border-blue-500 pl-4 italic text-blue-800 my-8">
-          "We're the face of fast, friendly service — and we show up when it matters most."
-        </blockquote>
-
-        <p className="text-lg font-semibold text-gray-800 mt-10 mb-4">
-          Have questions about emergency plumbing tips to prevent major damage? Book your service with Fixy and the PD team today.
-        </p>
-
-        <CallToAction />
-        <Testimonials service="emergency-plumbing" />
-      </main>
-    </>
-  );
-}
+          Emergencies aren’t the time to guess. If you notice water near your electrical syst
