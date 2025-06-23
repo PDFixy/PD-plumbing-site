@@ -3,17 +3,12 @@
 import { useState } from 'react';
 import Image from 'next/image';
 
-'use client';
-
-import { useState } from 'react';
-import Image from 'next/image';
-
 const teamMembers = [
   {
     name: 'Hunter Tilson',
     image: '/assets/images/team/Hunter.jpg',
     summary: 'Master HVAC Technician and Department Lead. Focused on personalized service and high-integrity results.',
-    fullBio: `Hunter Tilson is PD Plumbing’s HVAC Department Manager and Master HVAC Technician... [truncated for example]`,
+    fullBio: `Hunter Tilson is PD Plumbing’s HVAC Department Manager and Master HVAC Technician...`,
   },
   {
     name: 'Kaleb',
@@ -78,21 +73,14 @@ export default function MeetTheTeam() {
     setActiveIndex(prev => (prev === index ? null : index));
   };
 
-export default function MeetTheTeam() {
-  const [activeIndex, setActiveIndex] = useState<number | null>(null);
-
-  const toggleBio = (index: number) => {
-    setActiveIndex(prev => (prev === index ? null : index));
-  };
-
   return (
-    <section className='py-16 px-4 max-w-7xl mx-auto'>
-      <h2 className='text-4xl font-bold text-center mb-12'>Meet the Team</h2>
-      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8'>
+    <section className="py-16 px-4 max-w-7xl mx-auto">
+      <h2 className="text-4xl font-bold text-center mb-12">Meet the Team</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {teamMembers.map((member, index) => (
           <div
             key={index}
-            className='border rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow duration-300 cursor-pointer'
+            className="border rounded-xl shadow-md p-6 hover:shadow-xl transition-shadow duration-300 cursor-pointer"
             onClick={() => toggleBio(index)}
           >
             <Image
@@ -100,13 +88,12 @@ export default function MeetTheTeam() {
               alt={member.name}
               width={200}
               height={200}
-              className='mx-auto rounded-full object-cover w-32 h-32'
+              className="mx-auto rounded-full object-cover w-32 h-32"
             />
-            <h3 className='text-xl font-semibold mt-4 text-center'>{member.name}</h3>
-            <p className='text-sm text-gray-500 text-center'>{member.summary}</p>
-
+            <h3 className="text-xl font-semibold mt-4 text-center">{member.name}</h3>
+            <p className="text-sm text-gray-500 text-center">{member.summary}</p>
             {activeIndex === index && (
-              <div className='mt-4 text-sm text-gray-700 text-left whitespace-pre-line'>
+              <div className="mt-4 text-sm text-gray-700 text-left whitespace-pre-line">
                 <p>{member.fullBio}</p>
               </div>
             )}
