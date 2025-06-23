@@ -12,8 +12,16 @@ export default function Footer() {
           className="mx-auto"
         />
       </div>
-      <p className="mb-1">&copy; {new Date().getFullYear()} PD Plumbing. All rights reserved.</p>
-      <p>Built with 💧 by PD Plumbing & Fixy the Mascot 🛠️</p>
-    </footer>
-  );
-}
+      <p className="mb-1">
+        &copy; {new Date().getFullYear()} PD Plumbing. All rights reserved.
+      </p>
+      <p className="mb-4">Built with 💧 by PD Plumbing & Fixy the Mascot 🛠️</p>
+
+      <div className="flex justify-center space-x-4">
+        <a
+          href="/privacy-policy"
+          className="text-blue-600 underline hover:text-blue-800"
+        >
+          Privacy Policy
+        </a>
+        <a
