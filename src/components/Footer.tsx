@@ -1,8 +1,11 @@
+'use client';
+
 import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 text-center py-8 mt-20 text-sm text-gray-700 border-t">
+    <footer className="bg-gray-100 text-center py-10 mt-20 text-sm text-gray-700 border-t">
+      {/* Mascot */}
       <div className="mb-4">
         <Image
           src="/assets/images/fixy/fixy-waving.png"
@@ -12,16 +15,36 @@ export default function Footer() {
           className="mx-auto"
         />
       </div>
+
+      {/* Copyright */}
       <p className="mb-1">
         &copy; {new Date().getFullYear()} PD Plumbing. All rights reserved.
       </p>
-      <p className="mb-4">Built with 💧 by PD Plumbing & Fixy the Mascot 🛠️</p>
+      <p className="mb-6">
+        Built with 💧 by PD Plumbing & Fixy the Mascot 🛠️
+      </p>
 
-      <div className="flex justify-center space-x-4">
+      {/* Links */}
+      <div className="flex justify-center gap-6 text-blue-600">
         <a
           href="/privacy-policy"
-          className="text-blue-600 underline hover:text-blue-800"
+          className="underline hover:text-blue-800 transition"
         >
           Privacy Policy
         </a>
         <a
+          href="/terms-of-service"
+          className="underline hover:text-blue-800 transition"
+        >
+          Terms of Service
+        </a>
+        <a
+          href="/contact"
+          className="underline hover:text-blue-800 transition"
+        >
+          Contact Us
+        </a>
+      </div>
+    </footer>
+  );
+}
