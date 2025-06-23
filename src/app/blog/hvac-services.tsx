@@ -2,8 +2,8 @@
 
 import Head from "next/head";
 import Image from "next/image";
-import CallToAction from "@/components/CallToAction";
-import Testimonials from "@/components/Testimonials";
+import CallToAction from "@/app/components/CallToAction";
+import Testimonials from "@/app/components/Testimonials";
 
 export default function HvacServices() {
   return (
