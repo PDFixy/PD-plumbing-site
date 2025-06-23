@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
 import testimonials from '@/app/data/testimonials.json';
 
 export default function Testimonials({ service }: { service: string }) {
-  const filtered = testimonials.filter(t => t.service === service).slice(0, 2);
+  const filtered = testimonials.filter((t) => t.service === service).slice(0, 2);
 
   return (
     <section className="mt-12 px-4 max-w-4xl mx-auto">
