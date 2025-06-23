@@ -1,33 +1,4 @@
-'use client';
-
-[
-  {
-    "name": "Sarah J.",
-    "content": "PD Plumbing fixed our water heater the same day we called. Super friendly and professional!",
-    "service": "water-heater-repair"
-  },
-  {
-    "name": "John D.",
-    "content": "They replaced our sewer line quickly and cleaned everything up perfectly. Highly recommend!",
-    "service": "sewer-line-repair"
-  },
-  {
-    "name": "Angela K.",
-    "content": "The technician found our leak fast and explained everything clearly. Honest company!",
-    "service": "leak-detection"
-  },
-  {
-    "name": "Mike T.",
-    "content": "PD Plumbing handled my emergency pipe burst on a Saturday night. Lifesavers.",
-    "service": "emergency-plumbing"
-  },
-  {
-    "name": "Jessica H.",
-    "content": "Loved how fast and affordable their faucet install was. Would use again.",
-    "service": "faucet-installation"
-  }
-]
-'use client';
+"use client";
 
 import testimonials from '@/app/data/testimonials.json';
 
@@ -51,25 +22,5 @@ export default function Testimonials({ service }: { service: string }) {
         </a>
       </div>
     </section>
-  );
-}
-'use client';
-
-import testimonials from '@/app/data/testimonials.json';
-
-export default function TestimonialsPage() {
-  return (
-    <main className="px-4 sm:px-8 lg:px-16 py-10">
-      <h1 className="text-4xl font-bold mb-10 text-center">Customer Testimonials</h1>
-      <div className="grid gap-8 max-w-5xl mx-auto">
-        {testimonials.map((t, index) => (
-          <div key={index} className="bg-gray-100 p-6 rounded shadow">
-            <p className="text-gray-800 italic">“{t.content}”</p>
-            <p className="mt-2 font-semibold text-right text-gray-600">– {t.name}</p>
-            <p className="text-sm text-right text-gray-400">Service: {t.service.replace(/-/g, ' ')}</p>
-          </div>
-        ))}
-      </div>
-    </main>
   );
 }
