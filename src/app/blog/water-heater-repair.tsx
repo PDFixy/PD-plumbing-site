@@ -2,8 +2,8 @@
 
 import Head from "next/head";
 import Image from "next/image";
-import CallToAction from "@/components/CallToAction";
-import Testimonials from "@/components/Testimonials";
+import CallToAction from "@/app/components/CallToAction";
+import Testimonials from "@/app/components/Testimonials";
 
 export default function WaterHeaterRepair() {
   return (
@@ -12,7 +12,7 @@ export default function WaterHeaterRepair() {
         <title>Signs Your Water Heater Needs Repair Now | PD Plumbing</title>
         <meta
           name="description"
-          content="Signs Your Water Heater Needs Repair Now from PD Plumbing. Learn how to solve problems, prevent issues, and improve your home systems."
+          content="Signs Your Water Heater Needs Repair Now from PD Plumbing. Learn how to spot issues, prevent breakdowns, and keep your home comfortable."
         />
       </Head>
 
@@ -22,25 +22,25 @@ export default function WaterHeaterRepair() {
         <Image
           src="/assets/images/plumbing-van-company-logo.jpg"
           alt="Signs Your Water Heater Needs Repair Now"
-          width=800
-          height=400
+          width={800}
+          height={400}
           className="mb-6 rounded"
         />
 
         <p className="text-lg mb-4 text-gray-700">
-          Signs Your Water Heater Needs Repair Now – Learn how PD Plumbing can help you handle this common home concern with confidence.
+          Water heater issues can sneak up fast — leaving you without hot water when you need it most. Here’s what to look for and how PD Plumbing can help.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">🔧 What You Need to Know</h2>
         <ul className="list-disc list-inside mb-6 text-gray-700">
-          <li>Warning signs to look out for</li>
-          <li>When DIY is okay vs. when to call a pro</li>
-          <li>How PD Plumbing solves this fast</li>
+          <li>Warning signs your unit is about to fail</li>
+          <li>When a repair makes sense vs. full replacement</li>
+          <li>How PD Plumbing fixes water heaters fast</li>
         </ul>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">📞 Why Call PD Plumbing?</h2>
         <p className="mb-6 text-gray-700">
-          We offer honest pricing, fast response times, and the kind of local service that big chains just can’t match.
+          We offer fast diagnostics, honest pricing, and licensed repair techs who show up prepared. Local service you can trust.
         </p>
 
         <blockquote className="border-l-4 border-blue-500 pl-4 italic text-blue-800 my-8">
@@ -48,7 +48,7 @@ export default function WaterHeaterRepair() {
         </blockquote>
 
         <p className="text-lg font-semibold text-gray-800 mt-10 mb-4">
-          Have questions about signs your water heater needs repair now? Book your service with Fixy and the PD team today.
+          Need your water heater checked out? Book your repair with Fixy and the PD Plumbing team today.
         </p>
 
         <CallToAction />
