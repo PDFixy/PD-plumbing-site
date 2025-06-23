@@ -2,8 +2,8 @@
 
 import Head from "next/head";
 import Image from "next/image";
-import CallToAction from "@/components/CallToAction";
-import Testimonials from "@/components/Testimonials";
+import CallToAction from "@/app/components/CallToAction";
+import Testimonials from "@/app/components/Testimonials";
 
 export default function SumpPump() {
   return (
@@ -22,8 +22,8 @@ export default function SumpPump() {
         <Image
           src="/assets/images/plumbing-van-company-logo.jpg"
           alt="Why Your Basement Needs a Sump Pump (And Fast)"
-          width=800
-          height=400
+          width={800}
+          height={400}
           className="mb-6 rounded"
         />
 
