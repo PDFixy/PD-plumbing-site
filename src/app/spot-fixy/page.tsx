@@ -3,7 +3,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Layout from "@/app/components/Layout";
+import Layout from "@/components/Layout";
 
 export default function SpotFixyPage() {
   return (

@@ -1,6 +1,6 @@
 'use client';
 
-import testimonials from '@/data/testimonials.json';
+import testimonials from '@/app/data/testimonials.json';
 import { Star } from 'lucide-react';
 
 export default function TestimonialsPage() {
