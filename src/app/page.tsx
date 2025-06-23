@@ -42,36 +42,22 @@ export default function Home() {
 
         {/* Value Props */}
         <section className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {[
-            {
-              icon: '/images/badge-5star.png',
-              title: '5-Star Rated in Wichita',
-              desc: 'Hundreds of customers love our fast, friendly service.'
-            },
-            {
-              icon: '/images/badge-same-day.png',
-              title: 'Same-Day Service Available',
-              desc: 'Call before noon and we’ll fix it by sundown — guaranteed.'
-            },
-            {
-              icon: '/images/badge-no-hidden-fees.png',
-              title: 'No Hidden Fees',
-              desc: 'Straightforward pricing. Honest work. No surprises.'
-            }
-          ].map((item, idx) => (
+          {["5-Star Rated in Wichita", "Same-Day Service Available", "No Hidden Fees"].map((title, idx) => (
             <div key={idx} className="bg-white shadow-md rounded-lg p-6 text-center">
-              <Image src={item.icon} alt={item.title} width={80} height={80} className="mx-auto mb-2" />
-              <h3 className="font-bold text-lg mb-1">{item.title}</h3>
-              <p className="text-sm text-gray-600">{item.desc}</p>
+              <Image src={`/images/badge-${idx + 1}.png`} alt={title} width={80} height={80} className="mx-auto mb-2" />
+              <h3 className="font-bold text-lg mb-1">{title}</h3>
+              <p className="text-sm text-gray-600">
+                {idx === 0 && 'Hundreds of customers love our fast, friendly service.'}
+                {idx === 1 && 'Call before noon and we’ll fix it by sundown — guaranteed.'}
+                {idx === 2 && 'Straightforward pricing. Honest work. No surprises.'}
+              </p>
             </div>
           ))}
         </section>
 
         {/* Trust Logos */}
         <section className="bg-gray-50 py-10 px-6 rounded-xl flex flex-wrap items-center justify-center gap-6">
-          {[
-            'bbb', 'phcc', 'google-guaranteed', 'pack', 'satisfaction'
-          ].map((logo, idx) => (
+          {["bbb", "phcc", "google-guaranteed", "pack", "satisfaction"].map((logo, idx) => (
             <Image
               key={idx}
               src={`/assets/images/logos/${logo}.png`}
