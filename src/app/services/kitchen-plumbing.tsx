@@ -9,4 +9,30 @@ export default function KitchenPlumbing() {
     <main className="px-4 sm:px-8 lg:px-16 py-10 space-y-16">
 
       {/* Hero Section */}
-      <section className="bg-white shadow-md rounded-lg p-8
+      <section className="bg-white shadow-md rounded-lg p-8">
+        <h1 className="text-3xl font-bold mb-4 text-blue-900">Kitchen Plumbing</h1>
+        <Image
+          src="/assets/images/plumbing-van-company-logo.jpg"
+          alt="Kitchen Plumbing"
+          width={800}
+          height={400}
+          className="rounded mb-6"
+        />
+        <p className="text-gray-700">
+          From leaky sinks to full kitchen repipes, our experts ensure your kitchen plumbing works smoothly and efficiently.
+        </p>
+      </section>
+
+      {/* Call To Action */}
+      <section className="bg-blue-50 shadow-md rounded-lg p-6">
+        <CallToAction />
+      </section>
+
+      {/* Testimonials */}
+      <section className="bg-white shadow-md rounded-lg p-6 text-center">
+        <Testimonials service="kitchen-plumbing" />
+      </section>
+
+    </main>
+  );
+}
