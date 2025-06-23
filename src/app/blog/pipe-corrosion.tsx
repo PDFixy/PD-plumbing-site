@@ -1,8 +1,8 @@
 "use client";
 
 import Image from 'next/image';
-import CallToAction from '@/app/components/CallToAction';
-import Testimonials from '@/app/components/Testimonials';
+import CallToAction from '@/components/CallToAction';
+import Testimonials from '@/components/Testimonials';
 
 export default function pipe_corrosion() {
   return (

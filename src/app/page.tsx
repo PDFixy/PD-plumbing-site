@@ -1,11 +1,11 @@
 'use client';
 
 import Head from 'next/head';
-import Header from '@/app/components/Header';
-import Footer from '@/app/components/Footer';
-import CallToAction from '@/app/components/CallToAction';
-import Testimonials from '@/app/components/Testimonials';
-import OwnerMessage from '@/app/components/OwnerMessage';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import CallToAction from '@/components/CallToAction';
+import Testimonials from '@/components/Testimonials';
+import OwnerMessage from '@/components/OwnerMessage';
 
 import Image from 'next/image';
 
