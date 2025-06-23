@@ -19,4 +19,20 @@ export default function LeakDetection() {
           className="rounded mb-6"
         />
         <p className="text-gray-700">
-          Suspect a hi
+          Suspect a hidden leak? We use advanced tools to pinpoint plumbing issues without tearing into your home. Quick, non-invasive, and accurate.
+        </p>
+      </section>
+
+      {/* Call To Action */}
+      <section className="bg-blue-50 shadow-md rounded-lg p-6">
+        <CallToAction />
+      </section>
+
+      {/* Testimonials */}
+      <section className="bg-white shadow-md rounded-lg p-6 text-center">
+        <Testimonials service="leak-detection" />
+      </section>
+
+    </main>
+  );
+}
