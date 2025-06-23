@@ -59,3 +59,24 @@ export default function HvacServices() {
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">
           📍 Wichita’s Local HVAC Pros
+        </h2>
+        <p className="mb-6 text-gray-700">
+          We don’t just fix things when they break — we prevent them from breaking
+          in the first place. Our preventative HVAC services are trusted by homeowners
+          and businesses across Wichita and the surrounding areas.
+        </p>
+
+        <blockquote className="border-l-4 border-blue-500 pl-4 italic text-blue-800 my-8">
+          &quot;We help homeowners get ahead of HVAC problems — not wait for them to get worse.&quot;
+        </blockquote>
+
+        <p className="text-lg font-semibold text-gray-800 mt-10 mb-4">
+          Book your seasonal HVAC maintenance today with Fixy and the PD Plumbing team.
+        </p>
+
+        <CallToAction />
+        <Testimonials service="hvac-services" />
+      </main>
+    </>
+  );
+}

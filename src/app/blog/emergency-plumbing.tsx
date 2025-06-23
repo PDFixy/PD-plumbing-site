@@ -42,4 +42,21 @@ export default function EmergencyPlumbing() {
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">📵 When Not to DIY</h2>
         <p className="mb-6 text-gray-700">
-          Emergencies aren’t the time to guess. If you notice water near your electrical syst
+          Emergencies aren’t the time to guess. If you notice water near your electrical system, smell gas, or can’t find the leak’s source — it’s time
+          to call Fixy and the PD Plumbing team right away. We’re equipped for fast, expert emergency response.
+        </p>
+
+        <blockquote className="border-l-4 border-blue-500 pl-4 italic text-blue-800 my-8">
+          &quot;In an emergency, we’re not just fast — we’re trained for the unexpected.&quot;
+        </blockquote>
+
+        <p className="text-lg font-semibold text-gray-800 mt-10 mb-4">
+          Book emergency plumbing help now or call our 24/7 line. We’re standing by.
+        </p>
+
+        <CallToAction />
+        <Testimonials service="emergency-plumbing" />
+      </main>
+    </>
+  );
+}

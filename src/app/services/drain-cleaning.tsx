@@ -13,7 +13,8 @@ export default function DrainCleaning() {
           Drain Cleaning in Wichita
         </h1>
         <p className="text-lg text-gray-700 mb-6">
-          Clogged drain? Backed-up sink or tub? PD Plumbing has you covered — same-day.
+          Clogged drain? Backed-up sink or tub? PD Plumbing has you covered —
+          same-day.
         </p>
         <Image
           src="/assets/images/plumbing-van-company-logo.jpg"
