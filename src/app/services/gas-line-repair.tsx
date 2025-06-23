@@ -7,7 +7,6 @@ import Testimonials from "@/app/components/Testimonials";
 export default function GasLineRepair() {
   return (
     <main className="px-4 sm:px-8 lg:px-16 py-10 space-y-16">
-
       {/* Hero Section */}
       <section className="bg-white shadow-md rounded-lg p-8">
         <h1 className="text-3xl font-bold mb-4 text-blue-900">
@@ -35,7 +34,6 @@ export default function GasLineRepair() {
       <section className="bg-white shadow-md rounded-lg p-6 text-center">
         <Testimonials service="gas-line-repair" />
       </section>
-      
     </main>
   );
 }

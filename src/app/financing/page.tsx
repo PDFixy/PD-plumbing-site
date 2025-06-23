@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import Head from 'next/head';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import Head from "next/head";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function FinancingPage() {
   return (
@@ -18,9 +18,13 @@ export default function FinancingPage() {
       <Header />
 
       <main className="max-w-3xl mx-auto px-4 sm:px-6 py-16">
-        <h1 className="text-4xl font-bold mb-6 text-center">Fix Now. Pay Later. Smile Sooner.</h1>
+        <h1 className="text-4xl font-bold mb-6 text-center">
+          Fix Now. Pay Later. Smile Sooner.
+        </h1>
         <p className="mb-6 text-center text-gray-700 text-lg">
-          Everyone deserves quality repairs without financial stress. PD Plumbing offers flexible payment plans to help you move forward with confidence.
+          Everyone deserves quality repairs without financial stress. PD
+          Plumbing offers flexible payment plans to help you move forward with
+          confidence.
         </p>
 
         <section className="bg-gray-100 rounded-lg p-6 mb-10 shadow-sm">
@@ -37,13 +41,19 @@ export default function FinancingPage() {
         <section className="mb-10">
           <h2 className="text-2xl font-semibold mb-2">📄 How to Apply</h2>
           <p className="text-gray-700">
-            Financing is available for replacements, new installs, and even major repairs. Approval is fast — simply call or apply before service begins.
+            Financing is available for replacements, new installs, and even
+            major repairs. Approval is fast — simply call or apply before
+            service begins.
           </p>
         </section>
 
         <div className="text-center mt-8">
           <p className="mb-4 font-medium text-lg">
-            Call <a href="tel:3168715499" className="text-blue-600 hover:underline">316-871-5499</a> to apply or get your questions answered.
+            Call{" "}
+            <a href="tel:3168715499" className="text-blue-600 hover:underline">
+              316-871-5499
+            </a>{" "}
+            to apply or get your questions answered.
           </p>
           <a
             href="/contact"

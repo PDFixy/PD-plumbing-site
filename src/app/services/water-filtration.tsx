@@ -10,7 +10,6 @@ export default function WaterFiltration() {
   return (
     <Layout>
       <main className="px-4 sm:px-8 lg:px-16 py-10 space-y-16">
-
         {/* Water Filtration Overview */}
         <section className="bg-white shadow-md rounded-lg p-8">
           <h1 className="text-3xl font-bold mb-4 text-blue-900">
@@ -25,7 +24,8 @@ export default function WaterFiltration() {
           />
           <p className="text-gray-700 mb-4">
             Clean, pure water is essential for your family’s health and comfort.
-            Our water filtration solutions remove contaminants and ensure great-tasting water right from your tap.
+            Our water filtration solutions remove contaminants and ensure
+            great-tasting water right from your tap.
           </p>
           <ul className="list-disc list-inside text-gray-700">
             <li>Whole-house filtration systems</li>
@@ -44,7 +44,6 @@ export default function WaterFiltration() {
         <section className="bg-white shadow-md rounded-lg p-6 text-center">
           <Testimonials service="water-filtration" />
         </section>
-
       </main>
     </Layout>
   );

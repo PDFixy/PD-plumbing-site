@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function OwnerMessage() {
   return (
@@ -17,9 +17,11 @@ export default function OwnerMessage() {
           A Message from the Owner
         </h2>
         <p className="text-gray-700 mb-6 leading-relaxed text-base sm:text-lg">
-          At PD Plumbing, we don’t believe in upsells, gimmicks, or high-pressure tactics.
-          We believe in honest work, transparent pricing, and treating your home like our own.
-          Whether it’s a leaky faucet or a full system replacement, our job is to make your life easier — not harder.
+          At PD Plumbing, we don’t believe in upsells, gimmicks, or
+          high-pressure tactics. We believe in honest work, transparent pricing,
+          and treating your home like our own. Whether it’s a leaky faucet or a
+          full system replacement, our job is to make your life easier — not
+          harder.
         </p>
         <p className="text-lg font-semibold text-gray-800 italic mb-2">
           “We’re here to fix it fast, fix it right, and treat you like family.”

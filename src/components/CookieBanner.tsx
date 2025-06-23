@@ -30,7 +30,8 @@ export default function CookieBanner() {
             className="underline text-blue-300 hover:text-blue-200"
           >
             Privacy Policy
-          </a>.
+          </a>
+          .
         </p>
         <button
           onClick={handleAccept}

@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from "next/link";
+import Image from "next/image";
 
 export default function CallToAction() {
   return (
@@ -20,13 +20,16 @@ export default function CallToAction() {
             Same-Day Plumbing & HVAC in Wichita
           </h2>
           <p className="text-gray-700 mb-4 text-lg">
-            Fixy’s fast. Fixy’s friendly. Book now and we’ll be on the way today.
+            Fixy’s fast. Fixy’s friendly. Book now and we’ll be on the way
+            today.
           </p>
 
           {/* ⭐ Star rating bar */}
           <div className="flex justify-center items-center gap-1 text-yellow-400 text-xl mb-4">
-            {'★★★★★'}
-            <span className="text-sm text-gray-500 ml-2">(100+ Google Reviews)</span>
+            {"★★★★★"}
+            <span className="text-sm text-gray-500 ml-2">
+              (100+ Google Reviews)
+            </span>
           </div>
 
           {/* CTA Buttons */}

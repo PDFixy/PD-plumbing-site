@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -20,9 +20,7 @@ export default function Footer() {
       <p className="mb-1">
         &copy; {new Date().getFullYear()} PD Plumbing. All rights reserved.
       </p>
-      <p className="mb-6">
-        Built with 💧 by PD Plumbing & Fixy the Mascot 🛠️
-      </p>
+      <p className="mb-6">Built with 💧 by PD Plumbing & Fixy the Mascot 🛠️</p>
 
       {/* Links */}
       <div className="flex justify-center gap-6 text-blue-600">
@@ -38,10 +36,7 @@ export default function Footer() {
         >
           Terms of Service
         </a>
-        <a
-          href="/contact"
-          className="underline hover:text-blue-800 transition"
-        >
+        <a href="/contact" className="underline hover:text-blue-800 transition">
           Contact Us
         </a>
       </div>

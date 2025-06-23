@@ -1,9 +1,11 @@
-'use client';
+"use client";
 
-import testimonials from '@/app/data/testimonials.json';
+import testimonials from "@/app/data/testimonials.json";
 
 export default function Testimonials({ service }: { service: string }) {
-  const filtered = testimonials.filter((t) => t.service === service).slice(0, 2);
+  const filtered = testimonials
+    .filter((t) => t.service === service)
+    .slice(0, 2);
 
   return (
     <section className="mt-12 px-4 max-w-5xl mx-auto">
@@ -16,8 +18,12 @@ export default function Testimonials({ service }: { service: string }) {
             key={index}
             className="bg-gray-50 border border-gray-200 rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-300"
           >
-            <p className="text-gray-800 italic leading-relaxed">“{t.content}”</p>
-            <p className="mt-4 font-semibold text-right text-gray-700">– {t.name}</p>
+            <p className="text-gray-800 italic leading-relaxed">
+              “{t.content}”
+            </p>
+            <p className="mt-4 font-semibold text-right text-gray-700">
+              – {t.name}
+            </p>
           </div>
         ))}
       </div>

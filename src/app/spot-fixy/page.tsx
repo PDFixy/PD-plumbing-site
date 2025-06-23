@@ -1,8 +1,7 @@
-'use client';
+"use client";
 
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 import Layout from "@/components/Layout";
 
 export default function SpotFixyPage() {
@@ -34,8 +33,12 @@ export default function SpotFixyPage() {
             </h1>
 
             <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-              See Fixy on a van, yard sign, or poster around Wichita? Snap a photo and show it to your PD Plumbing tech for{' '}
-              <strong className="text-blue-700">10% off your mobilization fee</strong>.
+              See Fixy on a van, yard sign, or poster around Wichita? Snap a
+              photo and show it to your PD Plumbing tech for{" "}
+              <strong className="text-blue-700">
+                10% off your mobilization fee
+              </strong>
+              .
             </p>
 
             <p className="text-sm text-gray-500">

@@ -9,7 +9,6 @@ export default function FaucetInstallation() {
   return (
     <Layout>
       <main className="px-4 sm:px-8 lg:px-16 py-10 space-y-16">
-
         {/* Hero Section */}
         <section className="bg-white shadow-md rounded-lg p-8">
           <h1 className="text-3xl font-bold mb-4 text-blue-900">
@@ -23,7 +22,8 @@ export default function FaucetInstallation() {
             className="rounded mb-6"
           />
           <p className="mb-4 text-gray-700">
-            Leaky or outdated faucet? We’ll help you upgrade to a modern, water-efficient model quickly and professionally.
+            Leaky or outdated faucet? We’ll help you upgrade to a modern,
+            water-efficient model quickly and professionally.
           </p>
           <ul className="list-disc list-inside text-gray-700 space-y-1">
             <li>Kitchen and bathroom faucet installs</li>
@@ -42,7 +42,6 @@ export default function FaucetInstallation() {
         <section className="bg-white shadow-md rounded-lg p-6 text-center">
           <Testimonials service="faucet-installation" />
         </section>
-
       </main>
     </Layout>
   );

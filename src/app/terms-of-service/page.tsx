@@ -25,7 +25,9 @@ export default function TermsOfService() {
         subject to change based on actual inspection and work required.
       </p>
 
-      <h2 className="text-2xl font-semibold mt-8 mb-2">Limitation of Liability</h2>
+      <h2 className="text-2xl font-semibold mt-8 mb-2">
+        Limitation of Liability
+      </h2>
       <p className="mb-4">
         PD Plumbing is not liable for any indirect, incidental, or consequential
         damages resulting from the use of this website or services. Service is

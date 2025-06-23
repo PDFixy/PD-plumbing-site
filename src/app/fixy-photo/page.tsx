@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function FixyPhotoGiveaway() {
   return (
@@ -25,10 +25,16 @@ export default function FixyPhotoGiveaway() {
             height={60}
           />
           <div className="mt-4 sm:mt-0 space-x-3">
-            <a href="tel:3168715499" className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+            <a
+              href="tel:3168715499"
+              className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+            >
               Call Now
             </a>
-            <a href="/contact" className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+            <a
+              href="/contact"
+              className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700"
+            >
               Book Now
             </a>
           </div>
@@ -43,9 +49,13 @@ export default function FixyPhotoGiveaway() {
             height={300}
             className="mx-auto rounded"
           />
-          <h1 className="text-4xl font-bold mt-6">Snap a Photo with Fixy & Win!</h1>
+          <h1 className="text-4xl font-bold mt-6">
+            Snap a Photo with Fixy & Win!
+          </h1>
           <p className="mt-4 text-lg max-w-2xl mx-auto">
-            Each month, PD Plumbing selects the most creative selfie with Fixy. Winner receives a <strong>$50 gift card</strong> — no bots, just real smiles.
+            Each month, PD Plumbing selects the most creative selfie with Fixy.
+            Winner receives a <strong>$50 gift card</strong> — no bots, just
+            real smiles.
           </p>
 
           {/* QR Code */}
@@ -85,7 +95,9 @@ export default function FixyPhotoGiveaway() {
 
           {/* Monthly Winner */}
           <section className="mt-16 max-w-3xl mx-auto text-center">
-            <h2 className="text-2xl font-bold mb-4">🎉 Monthly Winner Spotlight</h2>
+            <h2 className="text-2xl font-bold mb-4">
+              🎉 Monthly Winner Spotlight
+            </h2>
             <Image
               src="/assets/images/fixy/monthly_winner.jpg"
               alt="June Winner: Alex in Andover"
@@ -93,15 +105,23 @@ export default function FixyPhotoGiveaway() {
               height={500}
               className="rounded shadow mx-auto"
             />
-            <p className="mt-2 text-gray-600 italic">June Winner: Alex in Andover!</p>
+            <p className="mt-2 text-gray-600 italic">
+              June Winner: Alex in Andover!
+            </p>
           </section>
 
           {/* CTAs */}
           <div className="mt-16 text-center space-x-4">
-            <a href="tel:3168715499" className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">
+            <a
+              href="tel:3168715499"
+              className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700"
+            >
               Call Now
             </a>
-            <a href="/contact" className="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700">
+            <a
+              href="/contact"
+              className="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700"
+            >
               Book Now
             </a>
           </div>
@@ -109,8 +129,10 @@ export default function FixyPhotoGiveaway() {
           {/* Disclaimer */}
           <div className="mt-12 text-sm text-gray-600 max-w-xl mx-auto text-center">
             <p>
-              One entry per person. Photo must clearly include Fixy. Monthly winners are selected manually by PD Plumbing staff.
-              We reserve the right to change or end the giveaway at any time. Gift cards are sent via email.
+              One entry per person. Photo must clearly include Fixy. Monthly
+              winners are selected manually by PD Plumbing staff. We reserve the
+              right to change or end the giveaway at any time. Gift cards are
+              sent via email.
             </p>
           </div>
         </section>

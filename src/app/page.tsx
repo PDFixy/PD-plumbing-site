@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import Head from 'next/head';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import CallToAction from '@/components/CallToAction';
-import Testimonials from '@/components/Testimonials';
-import OwnerMessage from '@/components/OwnerMessage';
-import Image from 'next/image';
+import Head from "next/head";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import CallToAction from "@/components/CallToAction";
+import Testimonials from "@/components/Testimonials";
+import OwnerMessage from "@/components/OwnerMessage";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -22,7 +22,6 @@ export default function Home() {
       <Header />
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-24">
-
         {/* Hero */}
         <section className="text-center">
           <h1 className="text-5xl font-extrabold text-blue-900 mb-4">
@@ -42,14 +41,30 @@ export default function Home() {
 
         {/* Value Props */}
         <section className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {["5-Star Rated in Wichita", "Same-Day Service Available", "No Hidden Fees"].map((title, idx) => (
-            <div key={idx} className="bg-white shadow-md rounded-lg p-6 text-center">
-              <Image src={`/images/badge-${idx + 1}.png`} alt={title} width={80} height={80} className="mx-auto mb-2" />
+          {[
+            "5-Star Rated in Wichita",
+            "Same-Day Service Available",
+            "No Hidden Fees",
+          ].map((title, idx) => (
+            <div
+              key={idx}
+              className="bg-white shadow-md rounded-lg p-6 text-center"
+            >
+              <Image
+                src={`/images/badge-${idx + 1}.png`}
+                alt={title}
+                width={80}
+                height={80}
+                className="mx-auto mb-2"
+              />
               <h3 className="font-bold text-lg mb-1">{title}</h3>
               <p className="text-sm text-gray-600">
-                {idx === 0 && 'Hundreds of customers love our fast, friendly service.'}
-                {idx === 1 && 'Call before noon and we’ll fix it by sundown — guaranteed.'}
-                {idx === 2 && 'Straightforward pricing. Honest work. No surprises.'}
+                {idx === 0 &&
+                  "Hundreds of customers love our fast, friendly service."}
+                {idx === 1 &&
+                  "Call before noon and we’ll fix it by sundown — guaranteed."}
+                {idx === 2 &&
+                  "Straightforward pricing. Honest work. No surprises."}
               </p>
             </div>
           ))}
@@ -57,15 +72,17 @@ export default function Home() {
 
         {/* Trust Logos */}
         <section className="bg-gray-50 py-10 px-6 rounded-xl flex flex-wrap items-center justify-center gap-6">
-          {["bbb", "phcc", "google-guaranteed", "pack", "satisfaction"].map((logo, idx) => (
-            <Image
-              key={idx}
-              src={`/assets/images/logos/${logo}.png`}
-              alt={`${logo} logo`}
-              width={120}
-              height={50}
-            />
-          ))}
+          {["bbb", "phcc", "google-guaranteed", "pack", "satisfaction"].map(
+            (logo, idx) => (
+              <Image
+                key={idx}
+                src={`/assets/images/logos/${logo}.png`}
+                alt={`${logo} logo`}
+                width={120}
+                height={50}
+              />
+            ),
+          )}
         </section>
 
         {/* CTA */}
@@ -85,9 +102,12 @@ export default function Home() {
         {/* Fixy Campaign */}
         <section className="grid md:grid-cols-2 gap-10">
           <div className="bg-white shadow-md rounded-lg p-6">
-            <h2 className="text-2xl font-semibold mb-4">📸 Spot Fixy — Save 10%</h2>
+            <h2 className="text-2xl font-semibold mb-4">
+              📸 Spot Fixy — Save 10%
+            </h2>
             <p className="mb-2">
-              See Fixy around town on a van, yard sign, or campaign poster? Snap a photo and show it to your tech for 10% off!
+              See Fixy around town on a van, yard sign, or campaign poster? Snap
+              a photo and show it to your tech for 10% off!
             </p>
             <a
               href="/spot-fixy"
@@ -98,9 +118,12 @@ export default function Home() {
           </div>
 
           <div className="bg-white shadow-md rounded-lg p-6">
-            <h2 className="text-2xl font-semibold mb-4">🎁 Fixy Photo Contest</h2>
+            <h2 className="text-2xl font-semibold mb-4">
+              🎁 Fixy Photo Contest
+            </h2>
             <p className="mb-2">
-              Be creative! Snap a fun pic with Fixy, upload it, and get a shot at a $50 gift card.
+              Be creative! Snap a fun pic with Fixy, upload it, and get a shot
+              at a $50 gift card.
             </p>
             <a
               href="/fixy-photo"
@@ -113,9 +136,12 @@ export default function Home() {
 
         {/* Financing Section */}
         <section className="bg-blue-50 rounded-lg p-10 text-center">
-          <h2 className="text-2xl font-bold mb-3">💰 Fix Now. Pay Later. Smile Sooner.</h2>
+          <h2 className="text-2xl font-bold mb-3">
+            💰 Fix Now. Pay Later. Smile Sooner.
+          </h2>
           <p className="mb-4 text-gray-700">
-            We offer low monthly payments, no down payment, and programs for all budgets — even with less-than-perfect credit.
+            We offer low monthly payments, no down payment, and programs for all
+            budgets — even with less-than-perfect credit.
           </p>
           <a
             href="/financing"
@@ -124,7 +150,6 @@ export default function Home() {
             Learn More About Financing
           </a>
         </section>
-
       </main>
 
       <Footer />

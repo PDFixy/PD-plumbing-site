@@ -27,7 +27,10 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y4Y9RVZ423"></script>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-Y4Y9RVZ423"
+        ></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -39,7 +42,9 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         {children}
         <MobileStickyCTA />
       </body>
