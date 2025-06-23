@@ -2,8 +2,8 @@
 
 import Head from "next/head";
 import Image from "next/image";
-import CallToAction from "@/components/CallToAction";
-import Testimonials from "@/components/Testimonials";
+import CallToAction from "@/app/components/CallToAction";
+import Testimonials from "@/app/components/Testimonials";
 
 export default function ToiletRepair() {
   return (
@@ -22,8 +22,8 @@ export default function ToiletRepair() {
         <Image
           src="/assets/images/plumbing-van-company-logo.jpg"
           alt="Toilet Troubles? Here’s When to Call a Plumber"
-          width=800
-          height=400
+          width={800}
+          height={400}
           className="mb-6 rounded"
         />
 
@@ -48,7 +48,7 @@ export default function ToiletRepair() {
         </blockquote>
 
         <p className="text-lg font-semibold text-gray-800 mt-10 mb-4">
-          Have questions about toilet troubles? here’s when to call a plumber? Book your service with Fixy and the PD team today.
+          Have questions about toilet troubles and when to call a plumber? Book your service with Fixy and the PD team today.
         </p>
 
         <CallToAction />
