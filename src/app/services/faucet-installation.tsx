@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Layout from "@/app/components/Layout";
-import CallToAction from "@/app/components/CallToAction";
-import Testimonials from "@/app/components/Testimonials";
+import Layout from "@/components/Layout";
+import CallToAction from "@/components/CallToAction";
+import Testimonials from "@/components/Testimonials";
 
 export default function FaucetInstallation() {
   return (

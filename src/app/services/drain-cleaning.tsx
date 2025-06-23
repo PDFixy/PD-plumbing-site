@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import CallToAction from "@/app/components/CallToAction";
-import Testimonials from "@/app/components/Testimonials";
+import CallToAction from "@/components/CallToAction";
+import Testimonials from "@/components/Testimonials";
 
 export default function DrainCleaning() {
   return (
@@ -13,8 +13,7 @@ export default function DrainCleaning() {
           Drain Cleaning in Wichita
         </h1>
         <p className="text-lg text-gray-700 mb-6">
-          Clogged drain? Backed-up sink or tub? PD Plumbing has you covered —
-          same-day.
+          Clogged drain? Backed-up sink or tub? PD Plumbing has you covered — same-day.
         </p>
         <Image
           src="/assets/images/plumbing-van-company-logo.jpg"

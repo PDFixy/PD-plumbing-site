@@ -2,8 +2,8 @@
 
 import Head from "next/head";
 import Image from "next/image";
-import CallToAction from "@/app/components/CallToAction";
-import Testimonials from "@/app/components/Testimonials";
+import CallToAction from "@/components/CallToAction";
+import Testimonials from "@/components/Testimonials";
 
 export default function HvacServices() {
   return (
@@ -32,9 +32,9 @@ export default function HvacServices() {
         />
 
         <p className="text-lg mb-4 text-gray-700">
-          Tired of surprise HVAC repairs? Ready to lower your heating and
-          cooling bills? Smart homeowners know that consistent HVAC maintenance
-          is the key to long-term savings — and peace of mind.
+          Tired of surprise HVAC repairs? Ready to lower your heating and cooling bills?
+          Smart homeowners know that consistent HVAC maintenance is the key to long-term
+          savings — and peace of mind.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">
@@ -52,34 +52,10 @@ export default function HvacServices() {
         </h2>
         <p className="mb-6 text-gray-700">
           Systems that are regularly tuned run more efficiently, last longer,
-          and are less likely to break when it’s freezing or scorching. Our team
+          and are less likely to break when it&apos;s freezing or scorching. Our team
           at PD Plumbing offers full HVAC inspections to catch small issues
           before they become big bills.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">
           📍 Wichita’s Local HVAC Pros
-        </h2>
-        <p className="mb-6 text-gray-700">
-          We don’t just fix things when they break — we prevent them from
-          breaking in the first place. Our preventative HVAC services are
-          trusted by homeowners and businesses across Wichita and surrounding
-          areas.
-        </p>
-
-        <blockquote className="border-l-4 border-blue-500 pl-4 italic text-blue-800 my-8">
-          "We’re not here to upsell. We’re here to help you save, stay
-          comfortable, and avoid surprises."
-        </blockquote>
-
-        <p className="text-lg font-semibold text-gray-800 mt-10 mb-4">
-          Want to protect your HVAC system and your wallet? Book your seasonal
-          service with Fixy and the PD Plumbing team today.
-        </p>
-
-        <CallToAction />
-        <Testimonials service="hvac-services" />
-      </main>
-    </>
-  );
-}
