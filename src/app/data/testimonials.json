@@ -2,26 +2,31 @@
   {
     "name": "Sarah J.",
     "content": "PD Plumbing fixed our water heater the same day we called. Super friendly and professional!",
-    "service": "water-heater-repair"
+    "service": "water-heater-repair",
+    "rating": 5
   },
   {
     "name": "John D.",
     "content": "They replaced our sewer line quickly and cleaned everything up perfectly. Highly recommend!",
-    "service": "sewer-line-repair"
+    "service": "sewer-line-repair",
+    "rating": 5
   },
   {
     "name": "Angela K.",
     "content": "The technician found our leak fast and explained everything clearly. Honest company!",
-    "service": "leak-detection"
+    "service": "leak-detection",
+    "rating": 5
   },
   {
     "name": "Mike T.",
     "content": "PD Plumbing handled my emergency pipe burst on a Saturday night. Lifesavers.",
-    "service": "emergency-plumbing"
+    "service": "emergency-plumbing",
+    "rating": 5
   },
   {
     "name": "Jessica H.",
     "content": "Loved how fast and affordable their faucet install was. Would use again.",
-    "service": "faucet-installation"
+    "service": "faucet-installation",
+    "rating": 5
   }
 ]
