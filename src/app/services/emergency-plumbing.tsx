@@ -17,7 +17,7 @@ export default function EmergencyPlumbing() {
           Wichita’s top-rated emergency plumbing experts.
         </p>
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Emergency Plumbing"
           width={800}
           height={400}

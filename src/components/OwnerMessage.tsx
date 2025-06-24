@@ -7,7 +7,7 @@ export default function OwnerMessage() {
     <section className="bg-gray-50 py-14 px-6 text-center">
       <div className="max-w-2xl mx-auto">
         <Image
-          src="/assets/images/team/britt.jpeg"
+          src="/images/team/britt.jpeg"
           alt="Britt, Owner of PD Plumbing"
           width={200}
           height={200}

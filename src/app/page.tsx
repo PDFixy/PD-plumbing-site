@@ -76,7 +76,7 @@ export default function Home() {
             (logo, idx) => (
               <Image
                 key={idx}
-                src={`/assets/images/logos/${logo}.png`}
+                src={`/images/logos/${logo}.png`}
                 alt={`${logo} logo`}
                 width={120}
                 height={50}

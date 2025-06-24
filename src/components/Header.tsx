@@ -10,7 +10,7 @@ export default function Header() {
         {/* Logo + Brand */}
         <Link href="/" className="flex items-center gap-3">
           <Image
-            src="/assets/images/logos/plumbing-van-company-logo.jpg"
+            src="/images/logos/plumbing-van-company-logo.jpg"
             alt="PD Plumbing Logo"
             width={40}
             height={40}

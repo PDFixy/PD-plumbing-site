@@ -8,7 +8,7 @@ export default function Footer() {
       {/* Mascot */}
       <div className="mb-4">
         <Image
-          src="/assets/images/fixy/fixy-waving.png"
+          src="/images/fixy/fixy-waving.png"
           alt="Fixy the PD Plumbing mascot waving"
           width={80}
           height={80}

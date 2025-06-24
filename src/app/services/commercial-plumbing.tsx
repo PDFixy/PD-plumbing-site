@@ -17,7 +17,7 @@ export default function CommercialPlumbing() {
           buildings, and industrial properties.
         </p>
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Commercial Plumbing"
           width={800}
           height={400}

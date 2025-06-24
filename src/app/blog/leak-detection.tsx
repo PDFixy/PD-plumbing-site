@@ -22,7 +22,7 @@ export default function BathroomUpgrades() {
         </h1>
 
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Top Bathroom Upgrade Ideas That Add Value"
           width={800}
           height={400}

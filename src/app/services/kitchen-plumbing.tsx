@@ -13,7 +13,7 @@ export default function KitchenPlumbing() {
           Kitchen Plumbing
         </h1>
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Kitchen Plumbing"
           width={800}
           height={400}

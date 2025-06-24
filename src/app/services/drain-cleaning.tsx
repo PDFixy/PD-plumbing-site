@@ -17,7 +17,7 @@ export default function DrainCleaning() {
           same-day.
         </p>
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Drain Cleaning Service"
           width={800}
           height={400}

@@ -13,7 +13,7 @@ export default function SewerLineRepair() {
           Sewer Line Repair in Wichita
         </h1>
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Sewer Line Repair"
           width={800}
           height={400}

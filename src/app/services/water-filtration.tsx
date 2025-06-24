@@ -16,7 +16,7 @@ export default function WaterFiltration() {
             Water Filtration System Installation in Wichita
           </h1>
           <Image
-            src="/assets/images/plumbing-van-company-logo.jpg"
+            src="/images/plumbing-van-company-logo.jpg"
             alt="Water Filtration"
             width={800}
             height={400}

@@ -8,7 +8,7 @@ export default function CallToAction() {
     <section className="bg-white border border-gray-200 shadow-xl rounded-2xl p-8 mt-12 text-center max-w-4xl mx-auto">
       <div className="flex flex-col md:flex-row items-center justify-center gap-8">
         <Image
-          src="/assets/images/fixy/fixy-ready.png"
+          src="/images/fixy/fixy-ready.png"
           alt="Fixy holding a wrench"
           width={140}
           height={140}

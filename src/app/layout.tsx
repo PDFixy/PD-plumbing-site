@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+
+import Layout from "@/components/Layout"; // ✅ Import Layout
 import MobileStickyCTA from "@/components/MobileStickyCTA";
 
 const geistSans = Geist({
@@ -45,8 +47,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
-        <MobileStickyCTA />
+        {/* ✅ Wrap site in Layout */}
+        <Layout>{children}</Layout>
       </body>
     </html>
   );

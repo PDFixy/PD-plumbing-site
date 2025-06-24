@@ -24,7 +24,7 @@ export default function SumpPump() {
         </h1>
 
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Why Your Basement Needs a Sump Pump (And Fast)"
           width={800}
           height={400}

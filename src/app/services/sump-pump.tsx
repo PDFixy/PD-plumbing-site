@@ -13,7 +13,7 @@ export default function SumpPump() {
           Sump Pump Services in Wichita
         </h1>
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Sump Pump"
           width={800}
           height={400}

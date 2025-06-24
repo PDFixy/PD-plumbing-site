@@ -21,7 +21,7 @@ export default function SpotFixyPage() {
           <div className="bg-white shadow-xl rounded-xl max-w-4xl mx-auto p-8 text-center space-y-8">
             {/* Fixy Banner */}
             <Image
-              src="/assets/images/fixy/fixy_save10_banner.png"
+              src="/images/fixy/fixy_save10_banner.png"
               alt="Fixy Save 10% Banner"
               width={900}
               height={300}

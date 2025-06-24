@@ -24,7 +24,7 @@ export default function WaterFiltration() {
         </h1>
 
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Clean Water Starts Here: Whole-House Filtration Tips"
           width={800}
           height={400}

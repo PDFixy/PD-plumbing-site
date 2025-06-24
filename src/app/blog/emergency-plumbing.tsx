@@ -20,7 +20,7 @@ export default function EmergencyPlumbing() {
         <h1 className="text-4xl font-bold mb-6">Emergency Plumbing Tips to Prevent Major Damage</h1>
 
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Emergency Plumbing Tips to Prevent Major Damage"
           width={800}
           height={400}

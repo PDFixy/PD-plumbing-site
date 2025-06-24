@@ -19,7 +19,7 @@ export default function FixyPhotoGiveaway() {
         {/* Header */}
         <div className="flex flex-wrap items-center justify-between px-4 sm:px-6 py-4 border-b">
           <Image
-            src="/assets/images/logos/plumbing-van-company-logo.jpg"
+            src="/images/logos/plumbing-van-company-logo.jpg"
             alt="PD Plumbing Logo"
             width={140}
             height={60}
@@ -43,7 +43,7 @@ export default function FixyPhotoGiveaway() {
         {/* Hero + Giveaway Info */}
         <section className="text-center px-4 py-10">
           <Image
-            src="/assets/images/banners/banner-fixy-photo-giveaway.jpg"
+            src="/images/banners/banner-fixy-photo-giveaway.jpg"
             alt="Fixy Photo Giveaway"
             width={900}
             height={300}
@@ -61,7 +61,7 @@ export default function FixyPhotoGiveaway() {
           {/* QR Code */}
           <div className="mt-8">
             <Image
-              src="/assets/images/qr/qr_fixy_photo_giveaway.png"
+              src="/images/qr/qr_fixy_photo_giveaway.png"
               alt="Fixy Photo QR Code"
               width={180}
               height={180}
@@ -72,7 +72,7 @@ export default function FixyPhotoGiveaway() {
           {/* Fixy Selfie Pose */}
           <div className="mt-6">
             <Image
-              src="/assets/images/fixy/fixy_selfie.png"
+              src="/images/fixy/fixy_selfie.png"
               alt="Fixy Selfie Pose"
               width={200}
               height={200}
@@ -99,7 +99,7 @@ export default function FixyPhotoGiveaway() {
               🎉 Monthly Winner Spotlight
             </h2>
             <Image
-              src="/assets/images/fixy/monthly_winner.jpg"
+              src="/images/fixy/monthly_winner.jpg"
               alt="June Winner: Alex in Andover"
               width={500}
               height={500}

@@ -24,7 +24,7 @@ export default function FaucetInstallation() {
         </h1>
 
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Choosing the Right Faucet for Your Kitchen or Bath"
           width={800}
           height={400}

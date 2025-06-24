@@ -24,7 +24,7 @@ export default function PipeReplacement() {
         </h1>
 
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="When to Replace Old Plumbing Pipes in Your Home"
           width={800}
           height={400}

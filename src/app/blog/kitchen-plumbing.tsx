@@ -24,7 +24,7 @@ export default function KitchenPlumbing() {
         </h1>
 
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Top Kitchen Plumbing Upgrades That Make Life Easier"
           width={800}
           height={400}

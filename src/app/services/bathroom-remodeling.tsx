@@ -17,7 +17,7 @@ export default function BathroomRemodeling() {
           stress. Our experts handle everything from demo to tile.
         </p>
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Bathroom Remodeling"
           width={800}
           height={400}

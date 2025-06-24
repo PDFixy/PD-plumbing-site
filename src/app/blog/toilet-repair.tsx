@@ -24,7 +24,7 @@ export default function ToiletRepair() {
         </h1>
 
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Toilet Troubles? Here’s When to Call a Plumber"
           width={800}
           height={400}

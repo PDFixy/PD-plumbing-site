@@ -22,7 +22,7 @@ export default function SewerLineRepair() {
         </h1>
 
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="The Homeowner’s Guide to Sewer Line Repair"
           width={800}
           height={400}

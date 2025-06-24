@@ -13,7 +13,7 @@ export default function GasLineRepair() {
           Gas Line Repair
         </h1>
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Gas Line Repair"
           width={800}
           height={400}

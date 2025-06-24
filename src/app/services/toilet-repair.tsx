@@ -13,7 +13,7 @@ export default function ToiletRepair() {
           Toilet Repair in Wichita
         </h1>
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Toilet Repair"
           width={800}
           height={400}

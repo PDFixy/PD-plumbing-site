@@ -15,7 +15,7 @@ export default function FaucetInstallation() {
             Faucet Installation in Wichita
           </h1>
           <Image
-            src="/assets/images/plumbing-van-company-logo.jpg"
+            src="/images/plumbing-van-company-logo.jpg"
             alt="Faucet Installation"
             width={800}
             height={400}

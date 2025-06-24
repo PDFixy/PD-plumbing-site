@@ -20,7 +20,7 @@ export default function DrainCleaning() {
         <h1 className="text-4xl font-bold mb-6">Drain Cleaning Hacks Every Homeowner Should Know</h1>
 
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Drain Cleaning Hacks Every Homeowner Should Know"
           width={800}
           height={400}

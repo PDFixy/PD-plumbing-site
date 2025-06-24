@@ -13,7 +13,7 @@ export default function LeakDetection() {
           Leak Detection
         </h1>
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Leak Detection"
           width={800}
           height={400}

@@ -24,7 +24,7 @@ export default function HvacServices() {
         </h1>
 
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="HVAC Maintenance Tips That Save You Money"
           width={800}
           height={400}

@@ -22,7 +22,7 @@ export default function WaterHeaterRepair() {
         </h1>
 
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Signs Your Water Heater Needs Repair Now"
           width={800}
           height={400}

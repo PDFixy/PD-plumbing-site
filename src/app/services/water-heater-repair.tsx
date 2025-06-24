@@ -15,7 +15,7 @@ export default function WaterHeaterRepair() {
             Water Heater Repair in Wichita
           </h1>
           <Image
-            src="/assets/images/plumbing-van-company-logo.jpg"
+            src="/images/plumbing-van-company-logo.jpg"
             alt="Water Heater Repair"
             width={800}
             height={400}

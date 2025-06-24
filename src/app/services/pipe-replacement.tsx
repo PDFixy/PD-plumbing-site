@@ -13,7 +13,7 @@ export default function PipeReplacement() {
           Pipe Replacement
         </h1>
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="Pipe Replacement"
           width={800}
           height={400}

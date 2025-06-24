@@ -11,7 +11,7 @@ export default function HvacServices() {
       <section className="bg-white shadow-md rounded-lg p-8">
         <h1 className="text-3xl font-bold mb-4 text-blue-900">HVAC Services</h1>
         <Image
-          src="/assets/images/plumbing-van-company-logo.jpg"
+          src="/images/plumbing-van-company-logo.jpg"
           alt="HVAC Services"
           width={800}
           height={400}
