@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 text-center py-10 mt-20 text-sm text-gray-700 border-t">
+    <footer className="bg-gray-100 text-center py-10 mt-20 text-sm text-gray-700 border-t border-gray-200">
       {/* Mascot */}
       <div className="mb-4">
         <Image
@@ -23,7 +23,7 @@ export default function Footer() {
       <p className="mb-6">Built with 💧 by PD Plumbing & Fixy the Mascot 🛠️</p>
 
       {/* Links */}
-      <div className="flex justify-center gap-6 text-blue-600">
+      <div className="flex flex-wrap justify-center gap-4 text-blue-600">
         <a
           href="/privacy-policy"
           className="underline hover:text-blue-800 transition"
@@ -36,7 +36,10 @@ export default function Footer() {
         >
           Terms of Service
         </a>
-        <a href="/contact" className="underline hover:text-blue-800 transition">
+        <a
+          href="/contact"
+          className="underline hover:text-blue-800 transition"
+        >
           Contact Us
         </a>
       </div>
