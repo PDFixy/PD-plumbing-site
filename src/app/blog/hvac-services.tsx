@@ -61,7 +61,7 @@ export default function HvacServices() {
           📍 Wichita’s Local HVAC Pros
         </h2>
         <p className="mb-6 text-gray-700">
-          We don’t just fix things when they break — we prevent them from breaking
+          We don&apos;t just fix things when they break — we prevent them from breaking
           in the first place. Our preventative HVAC services are trusted by homeowners
           and businesses across Wichita and the surrounding areas.
         </p>

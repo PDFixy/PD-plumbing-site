@@ -43,7 +43,7 @@ export default function KitchenPlumbing() {
         </h2>
         <ul className="list-disc list-inside mb-6 text-gray-700">
           <li>Touchless or pull-down faucets for hands-free convenience</li>
-          <li>Garbage disposals that don’t jam every week</li>
+          <li>Garbage disposals that don&apos;t jam every week</li>
           <li>Pot fillers — a must-have above the stove</li>
           <li>Filtered water taps for drinking and cooking</li>
         </ul>

@@ -60,7 +60,7 @@ export default function GasLineRepair() {
         </h2>
         <p className="mb-6 text-gray-700">
           We’re licensed, bonded, and trained in gas line detection and repair.
-          We don’t take chances, and neither should you. If you suspect a leak,
+          We don&apos;t take chances, and neither should you. If you suspect a leak,
           we’ll be there fast — with the tools and know-how to make your home
           safe again.
         </p>
