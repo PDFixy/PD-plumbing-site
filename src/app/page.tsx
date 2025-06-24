@@ -91,7 +91,7 @@ export default function Home() {
         {/* Testimonials */}
         <section className="bg-white shadow-md rounded-lg p-10 text-center">
           <h2 className="text-3xl font-bold mb-6">What Our Customers Say</h2>
-          <Testimonials />
+          <Testimonials service="homepage" />
         </section>
 
         {/* Owner Message */}
