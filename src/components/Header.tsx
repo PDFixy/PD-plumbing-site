@@ -10,7 +10,7 @@ export default function Header() {
         {/* Logo + Brand */}
         <Link href="/" className="flex items-center gap-3">
           <Image
-            src="/images/logos/plumbing-van-company-logo.jpg"
+            src="/images/logos/pd-logo-new.png"
             alt="PD Plumbing Logo"
             width={40}
             height={40}
@@ -24,12 +24,15 @@ export default function Header() {
           <Link href="/">Home</Link>
           <Link href="/services">Services</Link>
           <Link href="/blog">Blog</Link>
-          <Link href="/testimonials">Testimonials</Link>
-          <Link href="/financing">Financing</Link>
+          <Link href="/pages/testimonials">Testimonials</Link>
+          <Link href="/pages/financing">Financing</Link>
+          <Link href="/pages/spot-fixy">Spot Fixy</Link>
+          <Link href="/pages/fixy-photo">Fixy Photo</Link>
+          <Link href="/pages/meet-the-team">Meet the Team</Link>
           <Link href="/contact">Contact</Link>
         </nav>
 
-        {/* Phone CTA (Desktop Only) */}
+        {/* Phone CTA */}
         <a
           href="tel:3168715499"
           className="hidden md:inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-4 py-2 rounded-xl text-sm"
