@@ -16,13 +16,34 @@ export default function Footer() {
         />
       </div>
 
+      {/* Operating Hours */}
+      <div className="mb-4">
+        <p className="font-semibold">Hours of Operation:</p>
+        <p>Mon–Fri: 8am–5pm | Sat–Sun: Emergency Service Only</p>
+      </div>
+
+      {/* Service Areas */}
+      <div className="mb-4 text-xs text-gray-600">
+        Serving Wichita, Maize, Andover, Augusta, El Dorado
+      </div>
+
+      {/* Trust Badges */}
+      <div className="flex justify-center flex-wrap gap-4 mb-6">
+        <Image src="/images/logos/google-guaranteed.png" alt="Google Guaranteed" width={80} height={30} />
+        <Image src="/images/logos/bbb-accredited.png" alt="BBB Accredited" width={80} height={30} />
+        <Image src="/images/logos/phcc.png" alt="PHCC" width={80} height={30} />
+        <Image src="/images/logos/pack.png" alt="PACK" width={80} height={30} />
+        <Image src="/images/logos/5-star-customer.png" alt="5 Star Reviews" width={80} height={30} />
+        <Image src="/images/logos/customer-satisfaction.png" alt="Customer Satisfaction" width={80} height={30} />
+      </div>
+
       {/* Copyright */}
       <p className="mb-1">
         &copy; {new Date().getFullYear()} PD Plumbing. All rights reserved.
       </p>
       <p className="mb-6">Built with 💧 by PD Plumbing & Fixy the Mascot 🛠️</p>
 
-      {/* Links */}
+      {/* Footer Links */}
       <div className="flex flex-wrap justify-center gap-4 text-blue-600">
         <a
           href="/privacy-policy"
