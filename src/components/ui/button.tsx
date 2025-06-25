@@ -1,13 +1,13 @@
-﻿"use client";
+"use client";
 
 import * as React from "react";
 import { cn } from "@/lib/utils";
 
-export interface PDButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "default" | "outline";
 }
 
-export const PDButton = React.forwardRef<HTMLButtonElement, PDButtonProps>(
+export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant = "default", ...props }, ref) => {
     const variantClasses =
       variant === "outline"
@@ -24,4 +24,4 @@ export const PDButton = React.forwardRef<HTMLButtonElement, PDButtonProps>(
   }
 );
 
-PDButton.displayName = "PDButton";
+Button.displayName = "Button";
