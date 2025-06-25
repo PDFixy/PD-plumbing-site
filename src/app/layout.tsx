@@ -1,4 +1,7 @@
-import type { Metadata } from "next";
+import { responseCookiesToRequestCookies } from "next/dist/server/web/spec-extension/adapters/request-cookies"
+
+(Get-Content .\src\app\page.tsx) -replace 'src="/public/images/', 'src="/images/' | Set-Content .\src\app\page.tsx
+git responseCookiesToRequestCookiesimport type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script"; // ✅ Use Next.js optimized script
 import "./globals.css";
@@ -52,4 +55,3 @@ export default function RootLayout({
     </html>
   );
 }
-

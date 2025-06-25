@@ -30,7 +30,7 @@ import { useState } from "react"
 // Custom components matching your file structure
 const GoogleReviewBadge = () => (
   <div className="inline-flex items-center gap-3 bg-white p-4 rounded-xl shadow-lg border border-gray-100">
-    <Image src="/public/images/logos/google.png" alt="Google" width={32} height={32} />
+    <Image src="/images/logos/google.png" alt="Google" width={32} height={32} />
     <div className="flex flex-col">
       <div className="flex items-center gap-1">
         {[...Array(5)].map((_, i) => (
@@ -151,7 +151,7 @@ export default function HomePage() {
             {/* Logo */}
             <Link href="/" className="flex items-center">
               <Image
-                src="/public/images/logos/pd-logo-new.png"
+                src="/images/logos/pd-logo-new.png"
                 alt="PD Plumbing Heating and Cooling"
                 width={160}
                 height={50}
@@ -338,42 +338,42 @@ export default function HomePage() {
           </div>
           <div className="flex flex-wrap justify-center items-center gap-8 lg:gap-12 opacity-80">
             <Image
-              src="/public/images/logos/google-guaranteed.png"
+              src="/images/logos/google-guaranteed.png"
               alt="Google Guaranteed"
               width={140}
               height={70}
               className="hover:opacity-100 transition-opacity"
             />
             <Image
-              src="/public/images/logos/bbb-accredited.png"
+              src="/images/logos/bbb-accredited.png"
               alt="BBB Accredited Business"
               width={140}
               height={70}
               className="hover:opacity-100 transition-opacity"
             />
             <Image
-              src="/public/images/logos/phcc.png"
+              src="/images/logos/phcc.png"
               alt="PHCC Member"
               width={140}
               height={70}
               className="hover:opacity-100 transition-opacity"
             />
             <Image
-              src="/public/images/logos/pack.png"
+              src="/images/logos/pack.png"
               alt="PACK Member"
               width={140}
               height={70}
               className="hover:opacity-100 transition-opacity"
             />
             <Image
-              src="/public/images/logos/5-star-customer.png"
+              src="/images/logos/5-star-customer.png"
               alt="5 Star Customer Service"
               width={140}
               height={70}
               className="hover:opacity-100 transition-opacity"
             />
             <Image
-              src="/public/images/logos/customer-satisfaction.png"
+              src="/images/logos/customer-satisfaction.png"
               alt="Customer Satisfaction Guarantee"
               width={140}
               height={70}
@@ -480,7 +480,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="bg-gradient-to-br from-[#990000] to-[#002F6C] p-2 rounded-2xl">
                 <Image
-                  src="/public/images/team/pd-plumbing-tech-team.jpg"
+                  src="/images/team/pd-plumbing-tech-team.jpg"
                   alt="PD Plumbing Technical Team"
                   width={600}
                   height={400}
@@ -679,7 +679,7 @@ export default function HomePage() {
             {/* Company Info */}
             <div className="lg:col-span-2">
               <Image
-                src="/public/images/logos/pd-logo-new.png"
+                src="/images/logos/pd-logo-new.png"
                 alt="PD Plumbing Heating and Cooling"
                 width={200}
                 height={60}
