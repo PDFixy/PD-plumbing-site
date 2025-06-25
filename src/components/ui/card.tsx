@@ -19,3 +19,4 @@ export function CardContent({
 }: React.HTMLAttributes<HTMLDivElement>) {
   return <div className={cn("p-2", className)} {...props} />;
 }
+

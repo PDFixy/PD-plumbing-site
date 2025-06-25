@@ -31,3 +31,4 @@ export default function OwnerMessage() {
     </section>
   );
 }
+
